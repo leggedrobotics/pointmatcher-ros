@@ -50,6 +50,7 @@ add_definitions(-DHAVE_YAML_CPP)
 ########################
 add_library(${PROJECT_NAME}
   src/helper_functions.cpp
+  src/deserialization.cpp
   src/serialization.cpp
   src/transform.cpp
   src/PmTf.cpp
